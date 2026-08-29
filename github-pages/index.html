@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Cambiran Pickleball Store catalog preview" />
+    <title>Cambiran Pickleball Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <button class="menu" type="button" aria-label="Open menu">Menu</button>
+      <a class="brand" href="./">Cambiran Store</a>
+      <button class="cart" type="button" aria-label="Open cart">Cart (<span id="cart-count">0</span>)</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Cambiran Pickleball Store</p>
+        <h1>Default Medusa catalog</h1>
+        <p class="intro">A public preview of the sample products included with the Medusa starter.</p>
+      </section>
+
+      <section class="catalog" aria-labelledby="catalog-title">
+        <div class="catalog-heading">
+          <h2 id="catalog-title">All products</h2>
+          <span>4 items</span>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+    </main>
+
+    <dialog id="product-dialog">
+      <button class="close" type="button" aria-label="Close product details">×</button>
+      <div id="product-detail"></div>
+    </dialog>
+
+    <footer>
+      <span>© 2026 Cambiran Store</span>
+      <span>Static preview hosted on GitHub Pages</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
