@@ -11,6 +11,10 @@ nvm use
 npx --yes pnpm@10.11.1 dev
 ```
 
+The development launcher waits for Medusa to become healthy before starting the
+storefront. Stop it with `Ctrl+C` before launching another instance; running
+multiple copies on ports 8000 and 9000 will cause address conflicts.
+
 - Storefront: http://localhost:8000 (redirects to the starter's Denmark region)
 - Admin: http://localhost:9000/app
 - Admin login: `.local/admin-credentials.txt` (local only, excluded from Git)
