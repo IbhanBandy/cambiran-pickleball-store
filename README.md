@@ -1,3 +1,9 @@
+# [OPEN THE LIVE SITE](https://ibhanbandy.github.io/cambiran-pickleball-store/)
+
+**Public website:** https://ibhanbandy.github.io/cambiran-pickleball-store/
+
+---
+
 # Cambiran Pickleball Store
 
 Official Medusa DTC starter, with the default storefront design and sample apparel catalog unchanged.
