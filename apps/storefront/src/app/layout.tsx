@@ -4,6 +4,8 @@ import "styles/globals.css"
 
 export const metadata: Metadata = {
   metadataBase: new URL(getBaseURL()),
+  title: "Cambrian Pickleball Store",
+  description: "Pickleball gear and essentials for every game.",
 }
 
 export default function RootLayout(props: { children: React.ReactNode }) {
